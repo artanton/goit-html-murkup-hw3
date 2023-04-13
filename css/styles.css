@@ -203,8 +203,7 @@ img {
 
 /* felters */
 
-.list {
-}
+
 .filters-list {
 }
 .filters-btn {
@@ -251,10 +250,10 @@ img {
   display: flex;
   gap: 24px;
   padding-top: 112px;
-  
 }
 
 .what-are-item {
+  width: calc((100%-(24px*2))/3);
 }
 
 /* our team */
@@ -286,9 +285,8 @@ img {
   text-align: center;
 }
 
-.team-person{
+.team-person {
   padding: 16px 32px;
-
 }
 
 /* footer */
