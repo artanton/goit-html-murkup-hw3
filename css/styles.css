@@ -4,6 +4,7 @@
   --main-text-color: #2e2f42;
   --secondary-text-color: #434455;
   --accent-text-color: #404bbf;
+  --portfolo-btn-border: #e7e9fc;
 }
 
 /* Reset */
@@ -229,13 +230,13 @@ margin-bottom: 8px;
   padding-bottom: 120px;
 }
 .what-are-title{
-  margin-bottom: 8px
+  margin-bottom: 72px
 }
 
 .what-are-list {
   display: flex;
   gap: 24px;
-  padding-top: 112px;
+  
 }
 
 .what-are-item {
@@ -305,11 +306,10 @@ margin-bottom: 8px;
 
 }
 .portfolio-item {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-left: 16px;
+  padding: 32px 16px;
   gap: 8px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .portfolio-head {
   margin-bottom: 8px;
@@ -320,18 +320,19 @@ margin-bottom: 8px;
   font-size: 16px;
   line-height: 1;
 }
-.filter-container {
-}
+
 
 .filters-list {
   display: flex;
+  justify-content: center;
   gap: 24px;
   flex-wrap: nowrap;
-  padding: 86px 0 72px 286px;
+  padding: 86px 0 0 0;
+  margin-bottom: 72px;
 }
 .filters-btn {
   font-family: inherit;
-  border: 1px solid #e7e9fc;
+  border: 1px solid var( --portfolo-btn-border);
   border-radius: 4px;
   font-weight: 500;
   font-size: 16px;
@@ -346,18 +347,17 @@ margin-bottom: 8px;
   flex-wrap: nowrap;
 }
 
-.web-site-btn {
-  width: 112px;
-}
 
 .filters-btn:hover {
   background-color: var(--accent-text-color);
   color: white;
+  border: 1px solid transparent;
 }
 
 .filters-btn:focus {
   background-color: var(--accent-text-color);
   color: white;
+  border: 1px solid transparent;
 }
 .row-list {
   display: flex;
